@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="BankMore.Api/BankMore.API.csproj" />
+  <Project Path="BankMore.Application/BankMore.Application.csproj" />
+  <Project Path="BankMore.Domain/BankMore.Domain.csproj" Id="810c69ab-2b54-444d-923b-602ce7aea82e" />
+  <Project Path="BankMore.Infrastructure/BankMore.Infrastructure.csproj" Id="b5e3ce27-3308-4939-aa34-52e11b86a27d" />
+  <Project Path="BankMore.Tests/BankMore.Tests.csproj" />
+</Solution>

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BankMore.Tests\**" />
+    <Content Remove="BankMore.Tests\**" />
+    <EmbeddedResource Remove="BankMore.Tests\**" />
+    <None Remove="BankMore.Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BankMore.Application\BankMore.Application.csproj" />
+    <ProjectReference Include="..\BankMore.Infrastructure\BankMore.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
