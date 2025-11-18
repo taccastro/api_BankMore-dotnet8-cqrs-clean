@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Itens de Solução/">
+    <File Path="README.md" />
+  </Folder>
   <Project Path="BankMore.Api/BankMore.API.csproj" />
   <Project Path="BankMore.Application/BankMore.Application.csproj" />
   <Project Path="BankMore.Domain/BankMore.Domain.csproj" Id="810c69ab-2b54-444d-923b-602ce7aea82e" />
